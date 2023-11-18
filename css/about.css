@@ -148,3 +148,31 @@
 .btn:hover {
     box-shadow: none;
 }
+
+@media screen and (max-width: 600px) {
+    .logo {
+        font-size: 15px;
+    }
+    .navbar a {
+        font-size: 15px;
+        display:inline;
+        margin-left: 70px;
+    }
+    .home-image {
+        width: 100px;
+        height: 100px;
+    }
+    .home-image img {
+        max-width: 100px;
+    }
+    .home-content {
+        max-width: 200px;
+    }
+    .home-content h3 {
+        font-size: 12px;
+    }
+    .home-content p {
+        font-size: 8px;
+        text-indent: 20px;
+    }
+}
