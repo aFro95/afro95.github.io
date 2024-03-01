@@ -1,3 +1,13 @@
+function showLoader() {
+    document.querySelector('.pl').style.display = 'block';
+}
+function hideLoader() {
+    document.querySelector('.pl').style.display = 'none';
+}
+window.addEventListener('load', function() {
+    hideLoader();
+});
+
 window.addEventListener('load', function() {
     if (document.body.classList.contains('fullscreen') && window.innerWidth > 1024){
         const sections = document.querySelectorAll('.first-page, .about, .portfolio, .contact');
@@ -49,7 +59,17 @@ window.addEventListener('load', function() {
     }
 });
 
+function isMobile() {
+    return window.innerWidth < 768;
+  }
 
+function enableScrollOnMobile() {
+    if (isMobile()) {
+        document.body.style.overflowY = "scroll";
+    }
+  }
+enableScrollOnMobile();
+  
 
 const cursor_circle = document.querySelector(".cursor-circle"), 
 cursor = document.querySelectorAll(".cursor"),
