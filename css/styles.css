@@ -8,12 +8,13 @@
 }
 
 ::selection {
-  background-color: black;
+  background-color: #F2A154;
 }
 
 body {
   font-family: "Poppins", sans-serif;
   overflow: hidden;
+  background-color: #0A2342;
 }
 
 a {
@@ -26,7 +27,6 @@ ul {
 
 .first-page {
   position: relative;
-  background-color: #281d29;
   width: 100%;
   min-height: 100vh;
   overflow: hidden;
@@ -63,12 +63,6 @@ nav ul {
   font-weight: 200;
   letter-spacing: 1px;
   transition: 0.3s;
-}
-
-.nav-link a i {
-  transform: translateY(2px);
-  margin-left: 0.2rem;
-  font-size: 1.1rem;
 }
 
 .nav-link a:hover {
@@ -221,7 +215,6 @@ nav ul {
 
 .about {
   position: relative;
-  background-color: #281d29;
   width: 100%;
   min-height: 100vh;
   overflow: hidden;
@@ -278,7 +271,6 @@ nav ul {
 
 .portfolio {
   position: relative;
-  background-color: #281d29;
   width: 100%;
   min-height: 100vh;
   overflow: hidden;
@@ -354,7 +346,6 @@ nav ul {
 
 .contact {
   position: relative;
-  background-color: #281d29;
   width: 100%;
   min-height: 100vh;
   overflow: hidden;
